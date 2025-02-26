@@ -1,0 +1,104 @@
+html,body{
+   width: 100%;
+   overflow-x: hidden;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+
+}
+
+.section{
+  background-color: rgb(158, 201, 30);
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100vh;
+  padding: 0 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  width: 100%;                    
+  /* padding: 1rem 0;                */
+ 
+}
+
+
+.copy{
+  align-self: flex-start;
+}
+
+.playscore{
+  
+  align-self: flex-end;
+justify-content: space-around;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;     
+  justify-content: center; 
+  gap: 1rem;               
+  margin-top: 2rem;        
+}
+
+
+.tie{
+  background-color: hsla(46, 65%, 45%, 0.658);
+  width: 100vh;
+  height: 6rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  padding-bottom: 2rem;
+
+}
+
+#playericon , #computericon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  border: 2px dashed black;
+  margin-bottom: 0.2rem;
+  padding-bottom: 0.2rem;
+  width: 8rem;
+  height: 8rem;
+}
+
+.buttons button{
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.choices p{
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
